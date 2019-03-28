@@ -1,0 +1,38 @@
+SELECT ParkID, parkname, capacity - ( 
+SELECT COUNT( Bookid ) 
+FROM book
+WHERE parkingid =  '&parkid'  and dateout>curdate()) AS Remaining_Spaces
+FROM parkinglot
+WHERE ParkID =  '&ParkID';
+
+
+SELECT * 
+FROM afya_spaces_view
+UNION SELECT * 
+FROM archives_spaces_view
+UNION SELECT * 
+FROM bus_spaces_view
+UNION SELECT * 
+FROM harambee_spaces_view
+UNION SELECT * 
+FROM hilton_spaces_view
+UNION SELECT * 
+FROM  `inter-conn_spaces_view` 
+UNION SELECT * 
+FROM jivanjee_spaces_view
+UNION SELECT * 
+FROM kencom_spaces_view
+UNION SELECT * 
+FROM kocha_spaces_view
+UNION SELECT * 
+FROM moi_spaces_view
+UNION SELECT * 
+FROM nyamakima_spaces_view
+UNION SELECT * 
+FROM odeon_spaces_view
+UNION SELECT * 
+FROM raiways_spaces_view
+UNION SELECT * 
+FROM tmall_spaces_view
+UNION SELECT * 
+FROM uhuru_spaces_view

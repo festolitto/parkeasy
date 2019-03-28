@@ -1,0 +1,76 @@
+
+<?php
+session_start();
+?>
+<html>
+   <head>
+    <title class ="title">parking home page</title>
+	<link rel="stylesheet" type="text/css" href="mystylesheet.css">
+	<link rel="shortcut icon" href="icon.png" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width,initial scale=1.0">
+  <script type ="text/javascript" src="jquery.iconify.js"></script>	
+  
+   </head >
+   
+   <body>
+   
+      <div id="body-home">
+   
+   	 <Header class="header">
+   	 	<div class="logo"> <img src="logo.jpg" ></div>
+		<div>
+		 <p id="motto">Welcome To ParkEasy</p> 
+		 </div>
+		 <p>ParkEasy </p> 
+     </header>
+
+	<nav>
+   	 	<ul>
+   	 			<li><a href="">Home</a></li>
+   	 			<li><a href="">My services</a>
+				    <ul>
+				         <li><a href="">Book a space</a></li>
+				         <li><a href="">search for parking</a></li>
+				         <li><a href="">Navigate</a></li>
+		           </ul>
+				</li>
+   	 			<li><a href="">About</a></li>
+   	 			<li><a href="Register.php">Register</a></li>
+   	 			<li><a href="login.php">login</a></li>	
+   	    </ul>
+   	 </nav>
+        <h1>Welcome</h1>
+	
+	     <div id="sidepane">
+          <p>Welcome to ParkEasy a solution that has revolutionized the parking industry</p><br>
+		  <img src="pic7.png">
+		  <p>Sign up today and be a part of millions of people enjoying convient parking services</p>
+	     </div>
+  <script>
+  function initMap(){
+  var lacation = {lat: -23.363,lng: 131.044};
+  var map= new google.maps.Map(document.getElementById("map"),
+  {
+  zoom:4,
+  center:location
+  });
+   var marker = new google.maps.Marker({
+          map: map,
+          position: location,
+          title: 'Hello World!'
+        });
+  }
+  </script>
+  <script  async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPWg_ia9Pvd8dl52lEqwhpUigM2WSXN7Q&callback=initMap"
+  type="text/javascript"></script>
+		<footer id="footer">
+		 <div id="footercont">
+		 &nbsp&nbsp&nbsp <a href="">Home</a>&nbsp&nbsp&nbsp <a href="">About Us</a>&nbsp&nbsp 
+<a href="">Contact Us</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="" id="copyright">© 2018 ParkEasy-ALL RIGHTS RESERVED</a> 
+			</div>
+		</footer>
+		
+	</div>
+ </body>
+</html>

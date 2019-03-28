@@ -1,0 +1,159 @@
+
+       var lat1=-1.281232;
+	   var lng1=36.819532;
+	   
+	   var lat2=-1.292041;
+	   var lng2=36.827887;
+	   
+	   var lat3=--1.286541;
+	   var lng3=36.828686;
+	   
+	   var lat4=-1.284897;
+	   var lng4=36.825920;
+	   
+	   var lat5=-1.285388;
+	   var lng5=36.824507;
+	   
+	   var lat6=-1.287957;
+	   var lng6=36.819311;
+	   
+	   var lat7=-1.285991;
+	   var lng7=36.825304;
+	   
+	   var lat8=-1.283284;
+	   var lng8=36.825026;
+	   
+	   var lat9=-1.287880;
+	   var lng9=36.828097;
+	   
+	   var lat10=-1.289182;
+	   var lng10=36.823958;
+	   
+	   var lat11=--1.292066;
+	   var lng11=36.821946;
+	   
+	   var lat12=-1.290393;
+	   var lng12=36.816583;
+	   
+	   var lat12=-1.268281;
+	   var lng12=36.754473;
+	   
+	    var marker = new google.maps.Marker({
+		  position:{
+		   lat:lat1,
+		   lng:lng1
+	       },
+          map: map,
+          title: 'Hello World! welcome To our parking we have 20 spaces remaining',
+		  icon: 'marker.png'
+		  
+        });
+		 var marker = new google.maps.Marker({
+		  position:{
+		   lat:lat2,
+		   lng:lng2
+	       },
+          map: map,
+          title: 'Hello World! welcome To our parking we have 20 spaces remaining',
+		  icon: 'marker.png'
+		  
+        });
+		 var marker = new google.maps.Marker({
+		  position:{
+		   lat:lat3,
+		   lng:lng3
+	       },
+          map: map,
+          title: 'Hello World! welcome To our parking we have 20 spaces remaining',
+		  icon: 'marker.png'
+		  
+        });
+		 var marker = new google.maps.Marker({
+		  position:{
+		   lat:lat4,
+		   lng:lng4
+	       },
+          map: map,
+          title: 'Hello World! welcome To our parking we have 20 spaces remaining',
+		  icon: 'marker.png'
+		  
+        });
+		 var marker = new google.maps.Marker({
+		  position:{
+		   lat:lat5,
+		   lng:lng5
+	       },
+          map: map,
+          title: 'Hello World! welcome To our parking we have 20 spaces remaining',
+		  icon: 'marker.png'
+		  
+        });
+		 var marker = new google.maps.Marker({
+		  position:{
+		   lat:lat6,
+		   lng:lng6
+	       },
+          map: map,
+          title: 'Hello World! welcome To our parking we have 20 spaces remaining',
+		  icon: 'marker.png'
+		  
+        });
+		 var marker = new google.maps.Marker({
+		  position:{
+		   lat:lat7,
+		   lng:lng7
+	       },
+          map: map,
+          title: 'Hello World! welcome To our parking we have 20 spaces remaining',
+		  icon: 'marker.png'
+		  
+        });
+		 var marker = new google.maps.Marker({
+		  position:{
+		   lat:lat8,
+		   lng:lng8
+	       },
+          map: map,
+          title: 'Hello World! welcome To our parking we have 20 spaces remaining',
+		  icon: 'marker.png'
+		  
+        });
+		 var marker = new google.maps.Marker({
+		  position:{
+		   lat:lat9,
+		   lng:lng9
+	       },
+          map: map,
+          title: 'Hello World! welcome To our parking we have 20 spaces remaining',
+		  icon: 'marker.png'
+		  
+        }); var marker = new google.maps.Marker({
+		  position:{
+		   lat:lat10,
+		   lng:lng10
+	       },
+          map: map,
+          title: 'Hello World! welcome To our parking we have 20 spaces remaining',
+		  icon: 'marker.png'
+		  
+        });
+		 var marker = new google.maps.Marker({
+		  position:{
+		   lat:lat11,
+		   lng:lng11
+	       },
+          map: map,
+          title: 'Hello World! welcome To our parking we have 20 spaces remaining',
+		  icon: 'marker.png'
+		  
+        });
+		 var marker = new google.maps.Marker({
+		  position:{
+		   lat:lat12,
+		   lng:lng12
+	       },
+          map: map,
+          title: 'Hello World! welcome To our parking we have 20 spaces remaining',
+		  icon: 'marker.png'
+		  
+        });

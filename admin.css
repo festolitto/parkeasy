@@ -1,0 +1,174 @@
+
+
+
+.header{
+	width: 100%;
+	height: 17%;
+	margin: 0 auto;
+	background-color:teal;
+	position:fixed;
+	top:0px;
+	padding-bottom:0px;
+	z-index:1000;
+	
+	}
+	
+	nav{
+	width: auto;
+	height: 7%; 
+	position:fixed;
+	top:9.6%;
+	padding-top:0px;
+	z-index:1000;	
+	background:;
+	margin-left:20%;
+}
+
+nav ul li{
+	list-style: none;
+	width: 150px;
+	line-height: 10px;
+	float: left;
+	margin-top:0px;
+	height:100%;
+	text-align:center;
+	margin-top:-1.5%;	
+}
+
+nav ul li:hover ul{
+	display: block;	
+}
+
+nav ul li a{
+	color: black;
+	display:inline-block;
+	text-decoration:none;
+	font-family:calibri;
+	font-size:26px;
+	font-style:bold;
+	padding-top:;
+	
+}
+	
+nav	ul li a:hover{
+		font-weight:bold;
+		color:orange;
+		text-decoration:none;
+}
+
+	
+	body{
+		background-color:#f0f0f0;
+		
+	}
+	
+	.logo img{
+	position: absolute;
+	top: 20%;
+	width:06%;
+	height:60%;
+	margin-left:2%;
+	}
+	
+	#motto{
+		color:#ffffff;
+		font-size:26px;
+		text-align:center;
+		position:position;
+		left:5%;
+	}
+	
+#sidepanel{
+	height:80%;
+	width:15%;
+	border-radius:2%;
+	background:#ffffff;
+	position:fixed;
+	top:20%;
+    z-index:1%;	
+}
+
+#sidepanel ul li{
+	display:block;
+	
+	font-family:calibri;
+	font-size:25px;
+	background:white;
+	height:12%;
+	border:1px black solid;
+	text-align:center;
+	align-items:center;
+	align-content:justify;
+	
+}
+
+#sidepanel ul{
+	width:100%;
+	margin-left:-22%;
+	height:130%;
+	list-style:none;
+}
+
+#mainpanel{
+position:absolute;
+top:20%;
+left:10%;
+width:80%;
+height:100%;
+background:#ffffff;
+	
+}
+
+#mainpanel form{
+	  
+}
+
+#mainpanel form label{
+	
+}
+
+#mainpanel form input{
+
+}
+
+#mainpanel form p{
+text-align:center;
+color:teal;
+font-family:calibri;
+font-size:28px;
+font-style:bold;	
+}
+
+#submit{
+	position:absolute;
+	left:55%;
+	width:10%;
+	height:5%;
+	border-radius:3%;
+}
+
+#cancel{
+	left:35%;
+	width:10%;
+	height:5%;
+	border-radius:3%;
+}
+
+#submit:hover{
+	background:green;
+}
+
+#cancel:hover{
+	background:orange;
+}
+
+#viewpanel{
+	position:absolute;
+    top:20%;
+    left:20%;
+    width:77%;
+    height:78%;
+    background:#ffffff;
+	margin:0 auto;
+	
+}
